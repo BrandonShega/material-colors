@@ -3,6 +3,4 @@
 Single source of truth to consume Material color values
 
 ## Credit
-All credit goes to Trevor D. Miller <trevordmiller@icloud.com>
-[https://www.trevordmiller.com](https://www.trevordmiller.com)
-
+Forked from Nova: [https://trevordmiller.com/projects/nova](https://trevordmiller.com/projects/nova)
