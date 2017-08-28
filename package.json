@@ -1,6 +1,6 @@
 {
   "name": "material-theme-colors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "start": "scripts/start",
     "test": "scripts/test",
