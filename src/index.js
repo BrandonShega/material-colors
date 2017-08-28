@@ -1,22 +1,22 @@
 const colorValues = {
   colors: {
-    cyan: '#7FC1CA',
-    blue: '#83AFE5',
-    purple: '#9A93E1',
-    pink: '#D18EC2',
-    red: '#DF8C8C',
-    orange: '#F2C38F',
-    yellow: '#DADA93',
-    green: '#A8CE93',
+    cyan: '#64FCDA',
+    blue: '#40C4FF',
+    purple: '#FF4081',
+    pink: '#FF80AB',
+    red: '#FF5252',
+    orange: '#FF8A80',
+    yellow: '#FFD740',
+    green: '#69F0AE',
   },
   grays: {
     gray0: '#1E272C',
     gray1: '#3C4C55',
     gray2: '#556873',
     gray3: '#6A7D89',
-    gray4: '#899BA6',
-    gray5: '#C5D4DD',
-    gray6: '#E6EEF3',
+    gray4: '#B0BEC5',
+    gray5: '#FFFFFF',
+    gray6: '#FFFFFF',
   },
 }
 
