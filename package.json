@@ -1,6 +1,6 @@
 {
-  "name": "nova-colors",
-  "version": "2.1.5",
+  "name": "material-theme-colors",
+  "version": "1.0.2",
   "scripts": {
     "start": "scripts/start",
     "test": "scripts/test",
@@ -20,9 +20,8 @@
     "watch": "1.0.1"
   },
   "main": "build/index.js",
-  "description": "Single source of truth to consume Nova color values",
-  "homepage": "https://trevordmiller.github.io/nova",
-  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
+  "description": "Single source of truth to consume Material color values all credit for this goes to Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
+  "author": "Brandon Shega <b.shega@gmail.com.com>",
   "license": "MIT",
   "keywords": [
     "color-scheme",
@@ -30,6 +29,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trevordmiller/nova-colors.git"
+    "url": "git+https://github.com/brandonshega/material-colors.git"
   }
 }
