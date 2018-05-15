@@ -1,13 +1,17 @@
 const colorValues = {
   colors: {
     cyan: '#64FCDA',
+    brightCyan: '#A7FDEB',
     blue: '#40C4FF',
-    purple: '#FF4081',
-    pink: '#FF80AB',
+    brightBlue: '#80D8FF',
+    magenta: '#FF4081',
+    brightMagenta: '#FF80AB',
     red: '#FF5252',
-    orange: '#FF8A80',
+    brightRed: '#FF8A80',
     yellow: '#FFD740',
+    brightYellow: '#FFE57F',
     green: '#69F0AE',
+    brightGreen: '#B9F6CA',
   },
   grays: {
     gray0: '#1E272C',
@@ -36,15 +40,15 @@ export const syntaxGroups = {
   identifier: colorValues.colors.blue,
   statement: colorValues.colors.yellow,
   type: colorValues.colors.green,
-  global: colorValues.colors.purple,
-  emphasis: colorValues.colors.pink,
-  special: colorValues.colors.orange,
+  global: colorValues.colors.magenta,
+  emphasis: colorValues.colors.brightMagenta,
+  special: colorValues.colors.brightRed,
   trivial: colorValues.grays.gray4,
 }
 
 export const versionControlGroups = {
   added: colorValues.colors.green,
-  modified: colorValues.colors.orange,
+  modified: colorValues.colors.brightRed,
   removed: colorValues.colors.red,
   renamed: colorValues.colors.blue,
 }
@@ -62,12 +66,12 @@ export const ansiGroups = {
   },
   bright: {
     black: colorValues.grays.gray4,
-    red: colorValues.colors.orange,
-    green: colorValues.colors.green,
-    yellow: colorValues.colors.yellow,
-    blue: colorValues.colors.blue,
-    magenta: colorValues.colors.pink,
-    cyan: colorValues.colors.cyan,
+    red: colorValues.colors.brightRed,
+    green: colorValues.colors.brightGreen,
+    yellow: colorValues.colors.brightYellow,
+    blue: colorValues.colors.brightBlue,
+    magenta: colorValues.colors.brightMagenta,
+    cyan: colorValues.colors.brightCyan,
     white: colorValues.grays.gray6,
   },
 }
