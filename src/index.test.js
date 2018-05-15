@@ -6,8 +6,8 @@ import colorValues, {
 }  from './index'
 
 test('colors values', () => {
-  expect(colorValues.colors.cyan).toBe('#7FC1CA')
-  expect(colorValues.grays.gray4).toBe('#899BA6')
+  expect(colorValues.colors.cyan).toBe('#64FCDA')
+  expect(colorValues.grays.gray4).toBe('#B0BEC5')
 })
 
 test('UI group mappings to color values', () => {
@@ -25,5 +25,5 @@ test('version control group mappings to color values', () => {
 
 test('ansi group mappings to color values', () => {
   expect(ansiGroups.normal.cyan).toBe(colorValues.colors.cyan)
-  expect(ansiGroups.bright.red).toBe(colorValues.colors.orange)
+  expect(ansiGroups.bright.red).toBe(colorValues.colors.brightRed)
 })
