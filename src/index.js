@@ -60,7 +60,7 @@ export const ansiGroups = {
     green: colorValues.colors.green,
     yellow: colorValues.colors.yellow,
     blue: colorValues.colors.blue,
-    magenta: colorValues.colors.purple,
+    magenta: colorValues.colors.magenta,
     cyan: colorValues.colors.cyan,
     white: uiGroups.foreground,
   },
